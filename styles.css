@@ -1,0 +1,233 @@
+body{
+    color: black;
+    margin:0;
+    padding:0;
+    /* font-family: Helvetica, Arial, sans-serif;    */
+    font-family:serif;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.name-top{
+    color:#16063A;
+    padding:.5rem;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #8B7AAE;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+
+}
+
+.home-content{
+    margin:auto;
+    margin-bottom:1rem;
+    margin-top:2rem;
+    padding:2rem;
+    width:90%;
+    text-align:center;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.other-page-content{
+    margin:auto;
+    margin-bottom:1rem;
+    margin-top:2rem;
+    padding:1rem;
+    width:90%;
+    text-align:center;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.katie-img{
+    max-width:50%;
+    border-radius:50%;
+    border: 2px solid black;
+}
+
+nav{
+    list-style-type:none;
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+}
+
+nav ul{
+    text-align:center;
+    padding:0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 14px;
+    padding-top:.2rem;
+    padding-bottom:.2rem;
+    margin:0 .4rem 0 0;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    background-color:white;
+}
+
+li a{
+    text-decoration:none;
+}
+
+.language-list{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.language-list li{
+    display:inline-block;
+    font-weight:bold;
+    padding:.2rem;
+
+}
+    
+.project-img{
+    border:1px solid black;
+    width:90%;
+}
+
+.project-link-list{
+    list-style-type:none;
+    text-align:center;
+}
+
+.project-link-items{
+    display: inline-block;
+    font-size: 12px;
+    padding-right:20px;
+}
+.resume-content{
+    margin:auto;
+    margin-bottom:1rem;
+    margin-top:2rem;
+    padding:1rem;
+    width:90%;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+h3{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+h4{
+    margin-top:.2rem;
+    margin-bottom:0;
+    font-weight:normal;
+}
+
+.title-left{
+    text-align:left;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    margin-top:.5rem;
+}
+
+
+@media screen and (min-width: 992px){
+
+    nav{
+        width:50%;
+        /* margin-top:1.3rem; */
+        margin-top:25px;
+        float:right;
+        height:50px;
+        text-align:right;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        background-color:#8B7AAE;
+
+    }
+
+    nav ul{
+        margin-right:0;
+        margin-top:13px;
+        text-align:right;
+    }
+
+    nav li{
+        padding-right:1rem;
+        padding-left:1rem;
+    }
+    
+    .katie-img{
+        max-width:300px;
+    }
+    .name-top{
+        float:left;
+        text-align:left;
+        /* width:40%; */
+        /* margin-left:5%; */
+        height:50px;
+        width:50%;
+        margin-top:25px;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+
+    }
+
+    .intro-content{
+        float:right;
+        width:50%;
+    }
+    .project-title{
+        float:left;
+        width:60%;
+        text-align:center;
+    }
+    .language-list{
+        float:right;
+        width:35%;
+        margin-top:5rem;
+    }
+    .language-list li{
+        display:block;
+        font-weight:bold;
+        padding:.2rem;
+
+    }
+    .project-img{
+        float:right;
+        width:35%;
+    }
+    .project-text{
+        float:left;
+        width:60%;
+                text-align:center;
+
+    }
+    .resume-left{
+        float:left;
+        /* width:30%; */
+        width:50%;
+    }
+    .resume-right{
+        float:right;
+        width:50%;
+        text-align:right;
+        font-weight:bold;
+    }
+
+
+.clear-float{
+    clear:both;
+}
+
+.raleway-font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.resume-right{
+    font-weight:bold;
+}
+}
